@@ -1,0 +1,24 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\lab3\simulation\modelsim
+Elab3
+w1548764278
+Z1 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z2 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z3 dC:\altera\lab3\simulation\modelsim
+8C:/altera/lab3/lab3.vhd
+FC:/altera/lab3/lab3.vhd
+l0
+L4
+VIU:?In7V_6EL;DZjMdl`?1
+!s100 XRe4;kEN2j?^dOW@A_`862
+Z4 OV;C;10.1d;51
+31
+!i10b 1
+!s108 1548764437.334000
+!s90 -reportprogress|300|-93|-work|work|C:/altera/lab3/lab3.vhd|
+!s107 C:/altera/lab3/lab3.vhd|
+o-93 -work work -O0
+Z5 tExplicit 1

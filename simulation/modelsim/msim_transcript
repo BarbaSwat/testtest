@@ -1,0 +1,57 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do lab3_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/altera/lab3/lab3.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity lab3
+# -- Compiling architecture lab3_rtl of lab3
+# ** Error: C:/altera/lab3/lab3.vhd(14): Nonresolved signal 'counter' has multiple sources.
+#   Drivers:
+#     C:/altera/lab3/lab3.vhd(17):Process p_tick
+#        Driven at:
+#           C:/altera/lab3/lab3.vhd(21)
+#     C:/altera/lab3/lab3.vhd(28):Process p_led_blink
+#        Driven at:
+#           C:/altera/lab3/lab3.vhd(39)
+# ** Error: C:/altera/lab3/lab3.vhd(44): VHDL Compiler exiting
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./lab3_run_msim_rtl_vhdl.do line 8
+# C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -93 -work work {C:/altera/lab3/lab3.vhd}"
+vsim +altera -do lab3_run_msim_rtl_vhdl.do -l msim_transcript -gui work.lab3
+# vsim +altera -do lab3_run_msim_rtl_vhdl.do -l msim_transcript -gui work.lab3 
+# Loading std.standard
+# ** Error: (vsim-3173) Entity 'C:/altera/lab3/simulation/modelsim/rtl_work.lab3' has no architecture.
+# 
+# Error loading design
+vsim work.lab3
+# vsim work.lab3 
+# Loading std.standard
+# ** Error: (vsim-3173) Entity 'C:/altera/lab3/simulation/modelsim/rtl_work.lab3' has no architecture.
+# 
+# Error loading design
+vsim work.lab3
+# vsim work.lab3 
+# Loading std.standard
+# ** Error: (vsim-3173) Entity 'C:/altera/lab3/simulation/modelsim/rtl_work.lab3' has no architecture.
+# 
+# Error loading design
+vsim work.lab3
+# vsim work.lab3 
+# Loading std.standard
+# ** Error: (vsim-3173) Entity 'C:/altera/lab3/simulation/modelsim/rtl_work.lab3' has no architecture.
+# 
+# Error loading design
